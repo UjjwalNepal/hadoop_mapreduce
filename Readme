@@ -1,0 +1,12 @@
+export temperature.txt file to hdfs system from local.
+Use
+
+hadoop fs -put location_of_current_file_in_local location_of_file_hdfs
+
+Build the project in any Java IDE.
+Generate a jar file.
+from the terminal use the command
+
+hadoop jar /location_to_your_jar_file.
+
+
